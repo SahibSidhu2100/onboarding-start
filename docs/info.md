@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+ The design operates at 10 MHz and uses SPI communication at 100 KHz to configure registers that control output enables, PWM enables, and duty cycles.
 
 ## How to test
 
-Explain how to use your project
+Cocotb testbench, PWM Testbench to test duty cycle accuracy, frequency, and interaction between enable/PWM registers. CI/CD pipeline runs tests for the source files and produces a valid GDS
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None Required
